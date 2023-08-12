@@ -1,9 +1,24 @@
+let str='';
 for(let i = 1 ; i<=8 ; i++)
 {
-    for(let j =1 ; j<=i; j++)
+  for(let j =1 ; j <= i ; j++)
     {
-       
+    str += j;
     }
-    num = '\n'
+    str += "\n";
 }
-console.log(num);
+console.log(str);
+
+
+
+
+
+
+////////////////////////////////////////////
+// let result = ""
+// for (let i = 1; i <= 8; i++){
+//   result += i
+//   console.log(`${result} \n`) 
+// }
+//////////////////////////////////////////
+
